@@ -7,8 +7,6 @@
 # Variables:
 # x: matrix to be inversed
 # i: inversed matrix
-# o: result of makeCacheMatrix function, saved as a list
-
 
 
 ## Write a short comment describing this function
@@ -42,10 +40,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
-# Will caclulate the inverse of the matrix supplied in makeCacheMatrix.
+# Calculates the inverse of the matrix supplied in makeCacheMatrix.
 # Afterwards, When cacheSolve is run again and no new values have been
 # set in makeCacheMatrix, the function won't do the calculation again but
-# simply recall the result of the previous calculation from memory.
+# will recall the result of the previous calculation from memory.
 
 cacheSolve <- function(o,...) {
   
